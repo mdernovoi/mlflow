@@ -1,0 +1,7 @@
+# image processing
+pillow
+plotly
+kaleido
+
+# s3 storage access
+boto3
