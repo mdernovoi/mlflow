@@ -14,7 +14,7 @@ on:
     types: [published]
   push:
     branches:
-      - main
+      - '**' # every branch
     tags: [ v* ]
 
 jobs:
