@@ -1,5 +1,5 @@
 
-ARG MLFLOW_VERSION=2.2.2
+ARG MLFLOW_VERSION=2.3.0
 
 FROM ghcr.io/mlflow/mlflow:v${MLFLOW_VERSION}
 
@@ -19,7 +19,7 @@ RUN apt-get update &&  apt-get install -y --no-install-recommends \
 # TODO: maybe migrate to psycopg3
 RUN pip install psycopg2-binary --user
 
-# install my python dependencies
+# install custom python dependencies
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
