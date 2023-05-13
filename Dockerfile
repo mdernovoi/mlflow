@@ -3,6 +3,9 @@ ARG MLFLOW_VERSION=2.3.1
 
 FROM ghcr.io/mlflow/mlflow:v${MLFLOW_VERSION}
 
+# for github dependabot
+LABEL org.opencontainers.image.source="https://github.com/mdernovoi/mlflow"
+
 # dirty hack: https://stackoverflow.com/a/56748289
 # ARGS are reset after every FROM statement
 ARG MLFLOW_VERSION
