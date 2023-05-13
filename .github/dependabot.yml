@@ -3,7 +3,7 @@ updates:
 
   # Maintain docker dependencies
   - package-ecosystem: "pip"
-    directory: ".github/mlflow_proxy"
+    directory: ".github/mlflow_proxy/"
     schedule:
       interval: "weekly"
     target-branch: "docker-dependabot"
