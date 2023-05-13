@@ -1,9 +1,9 @@
 version: 2
 updates:
 
-  # Maintain docker dependencies
-  - package-ecosystem: "pip"
-    directory: "/dependabot_mlflow_proxy"
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/.github/dependabot_docker_proxy"
     schedule:
       interval: "weekly"
     
