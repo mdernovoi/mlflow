@@ -1,0 +1,2 @@
+# proxy dependabot version for mlflow image in Dockerfile
+mlflow == 2.3.1
