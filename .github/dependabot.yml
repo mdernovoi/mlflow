@@ -6,13 +6,11 @@ updates:
     directory: "/dependabot_mlflow_proxy"
     schedule:
       interval: "weekly"
-    target-branch: "docker-dependabot"
     
   # Maintain dependencies for pip
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "pip-dependabot"
   
 
