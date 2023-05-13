@@ -1,0 +1,11 @@
+version: 2
+updates:
+
+  # Maintain docker dependencies
+  - package-ecosystem: "Docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "docker-dependabot"
+  
+
