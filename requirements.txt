@@ -4,4 +4,4 @@ plotly == 5.14.1
 kaleido == 0.2.1
 
 # s3 storage access
-boto3 == 1.26.133
+boto3 == 1.26.155
