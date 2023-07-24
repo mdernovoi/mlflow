@@ -1,3 +1,3 @@
 
 # dependabot proxy for automatic version scanning
-FROM ghcr.io/mlflow/mlflow:v2.4.1
+FROM ghcr.io/mlflow/mlflow:v2.5.0
