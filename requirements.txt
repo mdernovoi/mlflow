@@ -1,5 +1,5 @@
 # image processing
-pillow == 9.5.0
+pillow == 10.0.1
 plotly == 5.15.0
 kaleido == 0.2.1
 
